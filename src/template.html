@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather For You</title>
-</head>
-<body>
+  </head>
+  <body>
+    <form id="weather-settings">
+      <label for="location">Stadt</label>
+      <input type="text" id="location" />
+      <label for="date">Datum</label>
+      <input type="date" id="date">
+      <button type="button" id="searchbtn">Suche</button>
+    </form>
     <div id="content"></div>
-</body>
+  </body>
 </html>
