@@ -1,4 +1,4 @@
 import "./css/styles.css";
 import { getWeatherData } from "./js/weather";
 
-getWeatherData("köln");
+getWeatherData("cologne", "2025-06-22");
