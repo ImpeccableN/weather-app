@@ -4,6 +4,11 @@ body {
     margin: 50px auto;
 }
 
+.flex {
+    display: flex;
+
+}
+
 #weather-settings {
     margin: 30px;
 }
@@ -12,4 +17,9 @@ body {
     width: 200px;
     height: 400px;
     margin: auto;
+}
+
+.weather-icon {
+    width: auto;
+    height: auto;
 }
