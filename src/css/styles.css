@@ -7,3 +7,9 @@ body {
 #weather-settings {
     margin: 30px;
 }
+
+.oneDay {
+    width: 200px;
+    height: 400px;
+    margin: auto;
+}
