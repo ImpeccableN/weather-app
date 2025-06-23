@@ -1,4 +1,4 @@
 import "./css/styles.css";
-import { getWeatherData } from "./js/weather";
+import { init } from "./js/dom";
 
-getWeatherData("cologne", "2025-06-22");
+init();
