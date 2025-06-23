@@ -1,3 +1,9 @@
 body {
-    background-color: aqua;
+    background-color: #CAE1FF;
+    width: 500px;
+    margin: 50px auto;
+}
+
+#weather-settings {
+    margin: 30px;
 }
