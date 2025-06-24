@@ -1,4 +1,6 @@
 import { getWeatherData } from "./weather";
+import { format } from "date-fns";
+
 
 let icons = {};
 
@@ -24,8 +26,8 @@ const weatherDom = (weatherData) => {
   const day1Container = document.getElementById("dayOne");
   //chooses div for date
   day1Container.firstElementChild.firstElementChild.textContent =
-    dayWeather.datetime;
-  //chooses div for weather icon. function for implementing right icon still to add
+    formatDate(dayWeather.datetime);
+  //chooses div for weather icon
   day1Container.firstElementChild.lastElementChild.src =
     icons[`./${dayWeather.icon}.png`];
 
@@ -40,3 +42,7 @@ export const init = () => {
   searchBtn.addEventListener("click", sendRequest);
 };
 
+
+const formatDate = (date) => {
+  return format(new Date(date), 'eee, dd.MM.');
+}
