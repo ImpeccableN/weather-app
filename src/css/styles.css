@@ -3,11 +3,17 @@ body {
     width: 500px;
     height: 100vh;
     margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .flex {
     display: flex;
 
+}
+
+.date-weather-icon {
+    align-items: center;
+    font-size: 1.5rem;
 }
 
 #weather-settings {
