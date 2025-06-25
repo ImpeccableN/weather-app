@@ -22,8 +22,11 @@ body {
 
 .oneDay {
     width: 200px;
-    height: 400px;
+    height: 200px;
     margin: auto;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 10px;
 }
 
 .weather-icon {

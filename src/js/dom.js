@@ -31,7 +31,7 @@ const weatherDom = (weatherData) => {
   day1Container.firstElementChild.lastElementChild.src =
     icons[`./${dayWeather.icon}.png`];
 
-  day1Container.lastElementChild.firstElementChild.textContent =
+  day1Container.lastElementChild.firstElementChild.textContent = "Max.: " +
     dayWeather.tempmax + "°C";
   day1Container.lastElementChild.lastElementChild.textContent =
     dayWeather.conditions;
